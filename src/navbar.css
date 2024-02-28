@@ -1,0 +1,32 @@
+.dark-mode-switch {
+    width: 34px;
+    height: 18px;
+    background-color: #ccc;
+    border-radius: 9px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dark-mode-switch::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s;
+  }
+  
+  .dark-mode-switch.dark {
+    background-color: #333;
+  }
+  
+  .dark-mode-switch.dark::before {
+    transform: translateX(16px);
+  }
+  .dark-screen{
+    background-color: black;
+  }
