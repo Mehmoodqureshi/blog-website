@@ -8,7 +8,7 @@ const HeroSection = () => {
   const location = useLocation();
   const isBlogsPage = location.pathname === "/blogs";
   const cardClass = isBlogsPage
-    ? "absolute bottom-1 flex items-end w-full left-10 "
+    ? "absolute bottom-2 flex items-end w-full left-10 "
     : "default-card-style";
   return (
     <div className="relative">
